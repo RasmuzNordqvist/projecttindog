@@ -1,0 +1,202 @@
+/****************************** PREDEFINED BODY ELEMENTS ******************************/
+
+
+body {
+ font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #FFF;
+}
+
+
+/****************************** NAVBAR ******************************/
+
+.navbar {
+    background-color: #FF4c68;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #FFF;
+
+}
+
+.nav-link {
+    color: #FFF;
+}
+
+/****************************** TITLE ******************************/
+#title {
+    background-color: #FF4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 0%;
+}
+
+.delete-m-r-l {
+    margin-left: 0%;
+    margin-right: 0#;
+}
+
+.delete-p-r-l {
+    padding-right: 0%;
+    padding-left: 0%;
+    height: 600px;
+}
+
+.title-h1 {
+    padding-top: 10%;
+}
+
+.download-button  {
+    margin-right: 1rem;
+}
+
+.tindog-image {
+    padding-top: 10%;
+    transform: rotate(30deg);
+    width: 60%;
+    left: 20%;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+/****************************** FEATURES ******************************/
+#features {
+    padding: 7% 10% 7% 10%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+
+}
+
+.feature-icons {
+    color: #ef8172;
+    margin: 5% 0% 5%;
+}
+
+.feature-icons:hover {
+    color: #ff3c68;
+}
+
+.feature-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.feature-p {
+    color: #8f8f8f;
+
+}
+
+/****************************** TESTIMONIALS ******************************/
+#testimonials {
+    background-color: #ef8172;
+    padding: 7% 0% 0% 0%;
+    color: #FFF;
+}
+
+.carousel-item {
+    padding: 0% 20% 0% 20%;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+}
+
+.testimonial-h2 {
+    margin: 0% 0% 3% 0%;
+}
+
+.testimonial-citation {
+    margin: 0% 0% 0% 2%;
+
+}
+
+/****************************** PRESS ******************************/
+#press {
+    background-color: #ef8172;
+    color: #FFF;
+    padding: 7% 0% 7%;
+
+}
+
+.press-logos {
+    padding-right: 3rem;
+}
+
+/****************************** PRICING ******************************/
+#pricing {
+    margin: 3% 0% 3% 0%;
+}
+
+.pricing-h2 {
+    margin-top: 4%;
+}
+
+.pricing-p {
+    margin-bottom: 4%;
+}
+/****************************** CTA ******************************/
+#cta {
+    background-color: #FF4c68;
+    padding: 3% 0% 7% 0%;
+
+}
+
+.cta-h3 {
+    font-style: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+
+.cta-button {
+    margin-right: 3%;
+}
+
+/****************************** FOOTER ******************************/
+#footer {
+    padding: 7% 0% 7% 0%;
+}
+
+.ctn-icons {
+    padding: 0% 0.5% 2% 0.5%;
+}
+
+.ctn-p {
+    color:#8f8f8f;
+}
+
+@media only screen and (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    
+    .tindog-image {
+      width: 40%;
+      transform: rotate(0deg);
+      position: static;
+      padding-top: 0%;
+
+    }
+    .delete-p-r-l {
+        height: 0%;
+    }
+  }
